@@ -65,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         TextFormField(
                           controller: _passCtrl,
                           obscureText: true,
-                          decoration: appInput('Contraseña', Icons.lock),
+                          decoration: appInput('Contraseña ._.', Icons.lock),
                           validator: (value) {
                             final v = value ?? '';
                             if (v.isEmpty) return 'La contraseña no puede estar vacía.';
